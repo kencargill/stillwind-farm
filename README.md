@@ -1,37 +1,3 @@
-# headers that open menus :
- - CSA 
-    - csa
-    - faq
-    - sign up
- - MARKET CARDS
-    - see above
- - ABOUT US
-    - our story
-    - practices
-    - offerings
-
-
-## CSA store item is clunky :
- - eamil addresses
- - where to pick up (belding/GR)
- - notes on allergies
- - etc
-
-
-## shift out of use of square (paid thru oct 2023) 
-would need new:
-    - market cards
-    - card reader for markets
-    - online shop support
-    - newsletter
-
-## website inspo:
-- https://www.tenmothersfarm.com/
-- https://www.edibleuprisingfarm.com/
-
-
-**************************************************
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
