@@ -4,6 +4,8 @@ import CsaPage from './components/csaPage';
 import HomePage from './components/homePage';
 import MarketCardPage from './components/marketCardPage';
 import AboutPage from './components/aboutPage';
+import ContactPage from "./components/contactPage";
+import ShopPage from "./components/shopPage";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/marketcard" element={<MarketCardPage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/shop" element={<ShopPage />} />
       </Routes>
     </div>
   );

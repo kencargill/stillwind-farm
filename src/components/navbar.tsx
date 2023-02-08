@@ -23,6 +23,16 @@ export default function Navbar () {
                     <button>About</button>
                 </Link>
             </div>
+            <div>
+                <Link to={'/contact'}>
+                    <button>Contact Us</button>
+                </Link>
+            </div>
+            <div>
+                <Link to={'/shop'}>
+                    <button>shop</button>
+                </Link>
+            </div>
         {/* <a> cart </a> */}
         </div>
     )
