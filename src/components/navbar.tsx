@@ -5,14 +5,14 @@ export default function Navbar () {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-
+{/* 
         <a className="navbar-brand" href="/">
             <img src={melonPic} alt="melon" width="50"/>
-        </a>
+        </a> */}
 
         <a className="navbar-brand" href="/">Stillwind Farm</a>
 
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>
 
