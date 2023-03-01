@@ -1,0 +1,18 @@
+// Override default variables before the import
+$body-bg: #000;
+
+// mixins
+@mixin background-image($imgsrc) {
+    background: url($imgsrc) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+html { 
+    @include background-image("./src/styles/photos/D0ED969A-25BE-4056-869C-56E2B0DA7AB3_1669226162.web"p)
+  }

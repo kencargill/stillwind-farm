@@ -6,6 +6,7 @@ import MarketCardPage from './components/marketCardPage';
 import AboutPage from './components/aboutPage';
 import ContactPage from "./components/contactPage";
 import ShopPage from "./components/shopPage";
+import 'bootstrap/dist/js/bootstrap.bundle';
 
 function App() {
   return (
