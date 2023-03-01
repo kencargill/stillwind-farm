@@ -1,6 +1,6 @@
 export default function HomePage () {
     return (
-        <div>
+        <div className="container">
             <h3>About Stillwind Farm</h3>
             <p>Stillwind Farm was established in 2021 on 1/8 acre urban plot in 
                 Muskegon Heights. The farm has since expanded to a 1/2 acre field 
