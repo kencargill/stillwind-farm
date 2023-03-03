@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from './components/navbar';
-import CsaPage from './components/csaPage';
-import HomePage from './components/homePage';
-import MarketCardPage from './components/marketCardPage';
-import AboutPage from './components/aboutPage';
-import ContactPage from "./components/contactPage";
-import ShopPage from "./components/shopPage";
+import CsaPage from './pages/csaPage';
+import HomePage from './pages/homePage';
+import MarketCardPage from './pages/marketCardPage';
+import AboutPage from './pages/aboutPage';
+import ContactPage from "./pages/contactPage";
+import ShopPage from "./pages/shopPage";
 import 'bootstrap/dist/js/bootstrap.bundle';
 
 function App() {

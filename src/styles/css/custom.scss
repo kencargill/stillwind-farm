@@ -1,19 +1,28 @@
 // Override default variables before the import
-$body-bg: #000;
+$current-website-focal-color: #e9d9be;
 
-//   "#e9d9be": primary  
+$text-color: #4C4066;
+$med-purp: #6A508A;
+$light-purp: #A86F9D;
+$orangey: #FCBB90;
+// $blueish-color: #909FAC;
+$btn-color: #F0938B;
+$bg-color: #FFF0BA;
+
+
+ 
 // mixins
-@mixin background-image($imgsrc) {
-    background: url($imgsrc) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+
 
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
 
-html { 
-    @include background-image("./src/styles/photos/D0ED969A-25BE-4056-869C-56E2B0DA7AB3_1669226162.web")
-  }
+.btn {
+    background-color: $btn-color;
+    border-color: $btn-color;
+    // how to change "success color to btn-color"
+}
+
+.bg-y {
+    background-color: $bg-color;
+}
