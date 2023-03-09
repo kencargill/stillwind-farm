@@ -42,7 +42,7 @@ export default function Navbar () {
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link" href="/shop">Shop</a>
+                        <a className="nav-link" href="https://www.stillwindfarmllc.com/s/shop">Shop</a>
                     </li>
 
                     {/* <li className="nav-item dropdown">
