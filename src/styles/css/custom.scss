@@ -3,7 +3,7 @@ $current-website-focal-color: #e9d9be;
 
 $text-color: #4C4066;
 $med-purp: #6A508A;
-$light-purp: #A86F9D;
+$light-p: #A86F9D;
 $orangey: #FCBB90;
 // $blueish-color: #909FAC;
 $btn-color: #F0938B;
@@ -17,12 +17,13 @@ $bg-color: #FFF0BA;
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
 
+body {
+    background-color: $bg-color;
+    // color: $text-color;
+}
+
 .btn {
     background-color: $btn-color;
     border-color: $btn-color;
     // how to change "success color to btn-color"
-}
-
-.bg-y {
-    background-color: $bg-color;
 }

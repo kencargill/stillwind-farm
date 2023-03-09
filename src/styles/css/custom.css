@@ -11724,11 +11724,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background-color: #FFF0BA;
+}
+
 .btn {
   background-color: #F0938B;
   border-color: #F0938B;
-}
-
-.bg-y {
-  background-color: #FFF0BA;
 }/*# sourceMappingURL=custom.css.map */
