@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function csaPage () {
     return (
         <div className="container p-3">
@@ -54,7 +56,14 @@ export default function csaPage () {
                     you! This can look like monthly payments, ½ payments, 
                     quarterly, etc. Please reach out via email if you would prefer 
                     exploring this option.</p>
+
             </div>
+
+                <div className="d-grid gap-2 col-6 m-auto justify-content-center">
+                    <Link to={'https://www.stillwindfarmllc.com/shop/csa-shares/9?page=1&limit=60&sort_by=category_order&sort_order=asc'} >
+                        <button type="button" className="btn btn-success m-5">view products</button>
+                    </Link>
+                </div>
         </div>
     )
 }
