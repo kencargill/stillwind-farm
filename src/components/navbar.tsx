@@ -1,5 +1,6 @@
 import brand from '../styles/photos/stliiwind-farm-clay.png'
 import { useState } from 'react';
+import Instagram from './instaLink';
 
 export default function Navbar () {
 
@@ -56,6 +57,10 @@ export default function Navbar () {
                         <li><a className="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li> */}
+
+                    <li className="nav-item">
+                        <a className="nav-link" aria-current="page"><Instagram /></a>
+                    </li>
 
                     </ul>
 
