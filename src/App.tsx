@@ -7,6 +7,7 @@ import AboutPage from './pages/aboutPage';
 import ContactPage from "./pages/contactPage";
 import ShopPage from "./pages/shopPage";
 import 'bootstrap/dist/js/bootstrap.bundle';
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/shop" element={<ShopPage />} />
       </Routes>
+      {/* <Footer /> */}
     </div>
   );
 }
