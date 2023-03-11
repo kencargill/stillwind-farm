@@ -6,7 +6,7 @@ $med-purp: #6A508A;
 $light-p: #A86F9D;
 $orangey: #FCBB90;
 // $blueish-color: #909FAC;
-$btn-color: #F0938B;
+$success: #F0938B;
 $bg-color: #FFF0BA;
 
 
@@ -17,13 +17,14 @@ $bg-color: #FFF0BA;
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
 
-body {
-    background-color: $bg-color;
-    // color: $text-color;
+:root {
+    --bs-body-font-family: 'Montserrat', sans-serif;
 }
 
 .btn {
-    background-color: $btn-color;
-    border-color: $btn-color;
-    // how to change "success color to btn-color"
+    color: white;
+    &:hover {
+        color: white;
+    }
 }
+

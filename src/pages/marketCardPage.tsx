@@ -27,7 +27,7 @@ export default function MarketCardPage () {
                     & believing in the nourishing food that we work so hard to grow!</p>
                 <div className="d-grid gap-2 col-6 mx-auto">
                     <Link to={'https://www.stillwindfarmllc.com/s/shop'} >
-                        <button type="button" className="btn btn-success">view products</button>
+                        <button type="button" className="btn btn-success m-3">view products</button>
                     </Link>
                 </div>
             </div>

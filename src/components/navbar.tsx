@@ -13,7 +13,7 @@ export default function Navbar () {
         <div className="container-fluid">
             {/* <div className='row'> */}
                 <a className="navbar-brand" href="/">
-                    <img src={brand} alt="melon" width="250"/>
+                    <img src={brand} alt="melon" width="200"/>
                 </a> 
 
                 {/* <a className="navbar-brand ps-3" href="/">Stillwind Farm</a> */}
