@@ -1,9 +1,20 @@
 import { Link } from "react-router-dom";
+import marigolds from "../styles/photos/IMG_2015.jpg"
 
 export default function csaPage () {
     return (
-        <div className="container p-3">
-            <div className="container">
+        <div className="container-fluid csa-page p-3 ">
+
+            {/* <img src={marigolds} className="col-12 position-static" width="100%"/> */}
+
+                <div className="d-grid gap-2 col-6 m-auto justify-content-center">
+                    <Link to={'https://www.stillwindfarmllc.com/shop/csa-shares/9?page=1&limit=60&sort_by=category_order&sort_order=asc'} >
+                        <button type="button" className="btn btn-success m-5">2023 CSA options</button>
+                    </Link>
+                </div>
+
+            <div className="container row col-12 col-md-5 m-2 p-5 bg-white">
+
                 <h3 className="row">CSA Overview</h3>
                 <p className="row">Community Supported Agriculture (CSA) shares are a common way for local 
                     farmers & veggie consumers to partner. By investing in a full or half 
@@ -30,7 +41,7 @@ export default function csaPage () {
                     photos, recipes, & CSA member events.</p>
             </div>
 
-            <div className="container">
+            <div className="container row col-12 col-md-5 m-2 p-5 bg-white">
                 <h3 className="row">Sign up / payment information:</h3>
                 <p className="row">We have designed our CSA to have two size options when signing 
                     up, full or half. The size of your shares at pickup will be 
@@ -59,11 +70,12 @@ export default function csaPage () {
 
             </div>
 
-                <div className="d-grid gap-2 col-6 m-auto justify-content-center">
+            <div className="d-grid gap-2 col-6 m-auto justify-content-center">
                     <Link to={'https://www.stillwindfarmllc.com/shop/csa-shares/9?page=1&limit=60&sort_by=category_order&sort_order=asc'} >
-                        <button type="button" className="btn btn-success m-5">view products</button>
+                        <button type="button" className="btn btn-success m-5">2023 CSA options</button>
                     </Link>
                 </div>
+
         </div>
     )
 }

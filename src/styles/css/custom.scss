@@ -21,6 +21,10 @@ $bg-color: #FFF0BA;
     --bs-body-font-family: 'Montserrat', sans-serif;
 }
 
+.bg-f {
+    background-color: $bg-color;
+}
+
 .home-page {
     background: url(../photos/D0ED969A-25BE-4056-869C-56E2B0DA7AB3_1669226162.webp) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -28,6 +32,14 @@ $bg-color: #FFF0BA;
     -o-background-size: cover;
     background-size: cover;
 }
+
+// .csa-page {
+//     background: url(../photos/IMG_2015.jpg) no-repeat center center fixed;
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     -o-background-size: cover;
+//     background-size: cover;
+// }
 
 .btn {
     color: white;
