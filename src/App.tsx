@@ -8,6 +8,9 @@ import ContactPage from "./pages/contactPage";
 import ShopPage from "./pages/shopPage";
 import 'bootstrap/dist/js/bootstrap.bundle';
 import Footer from "./components/footer";
+import CsaFaq from "./pages/csaFaq";
+import MarketCardFaq from "./pages/marketCardFaq";
+import PracticesPage from "./pages/practicesAboutPage";
 
 function App() {
   return (
@@ -16,10 +19,13 @@ function App() {
         <Navbar />
       </header>
       <Routes>
-        <Route path="/csa" element={<CsaPage />} />
         <Route path="/" element={<HomePage />} />
+        <Route path="/csa" element={<CsaPage />} />
+        <Route path="/csafaq" element={<CsaFaq />} />
         <Route path="/marketcard" element={<MarketCardPage />} />
+        <Route path="/cardfaq" element={<MarketCardFaq />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/practices" element={<PracticesPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/shop" element={<ShopPage />} />
       </Routes>

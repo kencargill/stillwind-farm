@@ -26,16 +26,37 @@ export default function Navbar () {
 
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0 px-3 align-self-end">
 
-                    <li className="nav-item">
-                        <a className="nav-link" aria-current="page" href="/csa">CSA</a>
+                    <li className="nav-item dropdown">
+                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        CSA
+                        </a>
+                        <ul className="dropdown-menu">
+                        <li><a className="dropdown-item" href="/csa">overview</a></li>
+                        <li><a className="dropdown-item" href="/csa">FAQ</a></li>
+                        <li><a className="dropdown-item" href="https://www.stillwindfarmllc.com/shop/csa-shares/9?page=1&limit=60&sort_by=category_order&sort_order=asc">sign up</a></li>
+                        </ul>
                     </li>
 
-                    <li className="nav-item">
-                        <a className="nav-link" href="/marketcard">Market Card</a>
+                    <li className="nav-item dropdown">
+                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        market cards
+                        </a>
+                        <ul className="dropdown-menu">
+                        <li><a className="dropdown-item" href="/marketcard">overview</a></li>
+                        <li><a className="dropdown-item" href="/cardfaq">FAQ</a></li>
+                        <li><a className="dropdown-item" href="https://www.stillwindfarmllc.com/shop/market-card/2?page=1&limit=60&sort_by=category_order&sort_order=asc">sign up</a></li>
+                        </ul>
                     </li>
 
-                    <li className="nav-item">
-                        <a className="nav-link" href="/about">About</a>
+                    <li className="nav-item dropdown">
+                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        about us
+                        </a>
+                        <ul className="dropdown-menu">
+                        <li><a className="dropdown-item" href="/about">our story</a></li>
+                        <li><a className="dropdown-item" href="/practices">practices</a></li>
+                        <li><a className="dropdown-item" href="https://www.stillwindfarmllc.com/s/shop">offerings</a></li>
+                        </ul>
                     </li>
 
                     <li className="nav-item">
@@ -45,18 +66,6 @@ export default function Navbar () {
                     <li className="nav-item">
                         <a className="nav-link" href="https://www.stillwindfarmllc.com/s/shop">Shop</a>
                     </li>
-
-                    {/* <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                        </a>
-                        <ul className="dropdown-menu">
-                        <li><a className="dropdown-item" href="#">Action</a></li>
-                        <li><a className="dropdown-item" href="#">Another action</a></li>
-                        <li><hr className="dropdown-divider"/></li>
-                        <li><a className="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li> */}
 
                     <li className="nav-item">
                         <a className="nav-link" aria-current="page"><Instagram /></a>
