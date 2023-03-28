@@ -70,7 +70,7 @@ export default function csaPage () {
 
             </div>
 
-            <div className="d-grid gap-2 col-6 m-auto justify-content-center">
+            <div className="d-grid gap-2 col-6 m-auto justify-content-center mb-5 pb-5">
                     <Link to={'https://www.stillwindfarmllc.com/shop/csa-shares/9?page=1&limit=60&sort_by=category_order&sort_order=asc'} >
                         <button type="button" className="btn btn-success m-5">2023 CSA options</button>
                     </Link>

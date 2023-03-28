@@ -25,7 +25,7 @@ export default function MarketCardPage () {
                 <p className="row">By shopping with a Market Card, you guarantee 10% off of each purchase! This 
                     is a way that we express gratitude for you supporting our early season costs 
                     & believing in the nourishing food that we work so hard to grow!</p>
-                <div className="d-grid gap-2 col-6 mx-auto">
+                <div className="d-grid gap-2 col-6 mx-auto mb-5 pb-5">
                     <Link to={'https://www.stillwindfarmllc.com/shop/market-card/2?page=1&limit=60&sort_by=category_order&sort_order=asc'} >
                         <button type="button" className="btn btn-success m-3">view products</button>
                     </Link>
