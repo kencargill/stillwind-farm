@@ -13,7 +13,7 @@ export default function csaPage () {
                     </Link>
                 </div>
 
-            <div className="container row col-12 col-md-5 m-2 p-5 bg-white">
+            <div className="container col-12 col-md-5 m-2 p-5 mx-auto">
 
                 <h3 className="row">CSA Overview</h3>
                 <p className="row">Community Supported Agriculture (CSA) shares are a common way for local 
@@ -41,7 +41,7 @@ export default function csaPage () {
                     photos, recipes, & CSA member events.</p>
             </div>
 
-            <div className="container row col-12 col-md-5 m-2 p-5 bg-white">
+            <div className="container col-12 col-md-5 m-2 p-5 mx-auto">
                 <h3 className="row">Sign up / payment information:</h3>
                 <p className="row">We have designed our CSA to have two size options when signing 
                     up, full or half. The size of your shares at pickup will be 

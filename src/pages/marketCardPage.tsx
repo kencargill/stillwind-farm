@@ -8,7 +8,7 @@ export default function MarketCardPage () {
                     connection & farm sustainability throughout the winter & summer season. 
                     See below to learn more about how you can access fresh veggies & discounts all season long!</p>
             </div>
-            <div className="container d-grid gap-2 col-6 mx-auto">
+            <div className="container gap-2 col-8 col-md-6 mx-auto">
                 <h3 className="row">Market Cards Explained:</h3>
                 <p className="row">Our Market Cards are a unique and adaptable way to support your local 
                     farmer! By purchasing one, you are granted flexibility, discounts, and 
@@ -27,7 +27,7 @@ export default function MarketCardPage () {
                     & believing in the nourishing food that we work so hard to grow!</p>
                 <div className="d-grid gap-2 col-6 mx-auto mb-5 pb-5">
                     <Link to={'https://www.stillwindfarmllc.com/shop/market-card/2?page=1&limit=60&sort_by=category_order&sort_order=asc'} >
-                        <button type="button" className="btn btn-success m-3">view products</button>
+                        <button type="button" className="btn btn-success m-3">view market card options</button>
                     </Link>
                 </div>
             </div>
