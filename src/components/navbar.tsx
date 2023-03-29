@@ -32,7 +32,7 @@ export default function Navbar () {
                         </a>
                         <ul className="dropdown-menu">
                         <li><a className="dropdown-item" href="/csa">overview</a></li>
-                        <li><a className="dropdown-item" href="/csa">FAQ</a></li>
+                        <li><a className="dropdown-item" href="/csafaq">FAQ</a></li>
                         <li><a className="dropdown-item" href="https://www.stillwindfarmllc.com/shop/csa-shares/9?page=1&limit=60&sort_by=category_order&sort_order=asc">sign up</a></li>
                         </ul>
                     </li>
