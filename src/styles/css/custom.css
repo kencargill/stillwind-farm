@@ -11742,4 +11742,8 @@ textarea.form-control-lg {
 }
 .btn:hover {
   color: white;
+}
+
+.dropdown-item:active {
+  background-color: #F0938B;
 }/*# sourceMappingURL=custom.css.map */

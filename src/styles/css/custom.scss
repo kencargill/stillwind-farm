@@ -48,3 +48,9 @@ $bg-color: #FFF0BA;
     }
 }
 
+.dropdown-item {
+    &:active {
+        background-color: $success;
+    }
+}
+
